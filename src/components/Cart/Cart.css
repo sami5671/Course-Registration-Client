@@ -1,7 +1,10 @@
 .cart-container {
   width: 240px;
-  height: 300px;
+  height: auto;
   background-color: whitesmoke;
   padding: 20px;
   border-radius: 20px;
+}
+.cart-container li {
+  list-style: none;
 }
