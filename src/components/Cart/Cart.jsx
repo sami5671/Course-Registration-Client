@@ -5,7 +5,11 @@ const Cart = () => {
     <div className="cart-container">
       <h4>Credit Hour Remaining 0 hr</h4>
       <hr />
-      <h3>Course Name</h3>
+      <h2>Course Name</h2>
+      <hr />
+      <h4>Total Credit Hour: </h4>
+      <hr />
+      <h4>Total Price: </h4>
     </div>
   );
 };
