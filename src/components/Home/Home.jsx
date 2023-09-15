@@ -7,7 +7,7 @@ const Home = () => {
   const [selectedCourse, setSelectedCourse] = useState([]);
   const [totalPrice, setTotalPrice] = useState(0);
   const [remainingCreditHour, setRemainingCreditHour] = useState(0);
-  const [totalCreditHour, setTotalCreditHour] = useState([]);
+  const [totalCreditHour, setTotalCreditHour] = useState(0);
   // =========================Fetching the data from Public(data.json) file step 1========================================
   useEffect(() => {
     fetch("./data.json")
