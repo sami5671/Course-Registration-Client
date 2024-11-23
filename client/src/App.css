@@ -1,0 +1,20 @@
+#root {
+  max-width: 1840px;
+  margin: 0 auto;
+
+}
+
+.custom-swal-button {
+  background-color: #f05050; /* Tailwind's bg-red-500 */
+  color: #fff;
+  font-weight: bold;
+  padding: 0.5rem 1rem; /* Tailwind's py-2 px-4 */
+  border: none; /* Removes border */
+  border-radius: 0.5rem; /* Tailwind's rounded-lg */
+  transition: background-color 0.3s ease;
+}
+
+.custom-swal-button:hover {
+  background-color: #B91C1C; /* Tailwind's bg-red-700 */
+  cursor: pointer;
+}
